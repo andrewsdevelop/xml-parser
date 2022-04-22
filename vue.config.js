@@ -6,4 +6,7 @@ module.exports = defineConfig({
   configureWebpack: {
     plugins: [new NodePolyfillPlugin()],
   },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/xml-parser/'
+    : '/'
 });
