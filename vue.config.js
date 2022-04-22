@@ -6,5 +6,4 @@ module.exports = defineConfig({
   configureWebpack: {
     plugins: [new NodePolyfillPlugin()],
   },
-  publicPath: "/xml-parser/",
 });
