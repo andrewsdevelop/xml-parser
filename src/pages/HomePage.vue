@@ -13,7 +13,7 @@ import TabPine from "@/components/TabPine.vue";
   },
 })
 export default class HomePage extends Vue {
-  private link = "https://test-andrew.website.yandexcloud.net/test.xml"; // Select url for start parse XML
+  private link = ""; // Select url for start parse XML
   private xmlDom!: Document;
   private loading = false;
 
