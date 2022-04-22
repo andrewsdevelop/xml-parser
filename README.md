@@ -1,24 +1,29 @@
 # xml-parser
 
-## Project setup
+## Установка проекта
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск в режиме разработчика
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Сборка билда
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Для задания ссылки для проверки XML файла с сервера
+
+Перейдите в
+
 ```
-npm run lint
+src/pages/HomePage.vue
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+и вставьте вместо пустого значения переменной `link` необходимую ссылку
